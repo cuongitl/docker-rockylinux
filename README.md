@@ -33,7 +33,7 @@ Star this repository if it is useful for you.
 This container can be accessed by SSH and SFTP clients.
 
     docker run -d --name rockylinux \  
-           -e TIMEZONE=Asia/Tokyo \  
+           -e TIMEZONE=Asia/Saigon \  
            -e ROOT_PASSWORD=root \  
            -p 8022:22 \  
            cuongitl/rockylinux
@@ -41,7 +41,7 @@ This container can be accessed by SSH and SFTP clients.
 You can add extra ports and volumes as follows if you want.
 
     docker run -d --name rockylinux \  
-           -e TIMEZONE=Asia/Tokyo \  
+           -e TIMEZONE=Asia/Saigon \  
            -e ROOT_PASSWORD=root \  
            -p 8022:22 \  
            -p 8080:80 \  
